@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "pluto-flask-backend"
+version = "0.1.0"
+description = ""
+authors = ["MYEONGJIN LEE <46295610+myeongwang@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+flask = "^3.0.0"
+flask-sqlalchemy = "^3.1.1"
+requests = "^2.31.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
